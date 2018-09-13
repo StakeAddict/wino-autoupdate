@@ -19,4 +19,3 @@ chmod 755 src/leveldb/build_detect_platform
 ./configure --without-gui --disable-tests
 make
 make install
-reboot
