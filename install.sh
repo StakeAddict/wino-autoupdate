@@ -16,6 +16,6 @@ cd Wino
 find . -name "*.sh" -exec sudo chmod 755 {} \;
 chmod 755 src/leveldb/build_detect_platform
 ./autogen.sh
-./configure --without-gui --disable-tests
+./configure --without-gui
 make
 make install
